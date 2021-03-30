@@ -1,0 +1,180 @@
+.app{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(134, 133, 133);
+    padding: 60px;
+}
+.app-containner{
+    background: url(background.png);
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    padding-top: 15px; ;
+}
+
+.info-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.header-money{
+    display: flex;
+    align-items: center;
+    border-radius: 0px 25px 25px 0px;
+    background-color:#666666;
+    width: 154px;
+    height: 43px;
+    left: -9px;
+    top: 10px;
+    
+}
+
+.icon-money{
+    padding-right: 17px;
+    margin-left: 12px;
+}
+.money-text{    
+    color: #2AFAA5;
+    font-family:'ZCOOL QingKe HuangYou';    
+    font-size: 20px;
+    width: 93px;
+    height: 20px;
+}
+.header-week{
+    display: flex;
+    align-items: center;
+    width: 126px;
+    height: 43px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: #EB6D03;
+}
+
+.header-money, .header-week{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.week-text{
+    font-size: 20px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    color: #FFFF; 
+}
+
+.icon-week{
+    margin-left: 13px;
+    margin-right: 6px;
+    width: 26px;
+    height: 26px;
+}
+
+.menu{
+    height: 333px;
+    width: 362px;
+    background-color: #FFFF;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.top-menu{
+    background-color: #EB6D03;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 30px 30px 0px;
+    margin-bottom: 21.4px;
+}
+
+.return-icon{
+    margin: 19px 0 17px 11px;
+}
+
+.text-menu-top{
+    color: #FFFF;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    }
+
+.icon-builder{
+margin-right: 3px;
+}
+
+.center-menu{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.role{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    border-radius: 45px 15px 15px 45px;
+    width: 338px;
+    height: 75px;
+    background-color: #366796;
+}
+.role-icon{
+    margin-left: 5px;
+    border: solid #FA821F 2px;
+    border-radius: 50%;
+}
+.role-name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffff;
+}
+.center-area{
+    margin-top: 102px;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.contruction-tools{
+    position: absolute;
+}
+.contruction-tools-0{
+    top: -75px;
+    left: 145px;
+    width: 330px;
+    height: 211px;
+}
+
+.contruction-tools-1{
+    top: 90px;
+    left: 120px;
+}
+
+.contruction-tools-2{
+    top: 45px;
+    left: 190px;
+}
+
+.contruction-tools-3{
+    left: 240px;
+    top: 70px;
+}
+
+.icons-aux{
+    display: flex;
+    background-color: #EB6D03;
+    margin-top: 11px;
+    width: 375px;
+    height: 77px;
+    justify-content: center;
+    align-items: center;
+}
+.icons-config{
+    width: 49px;
+    height: 49px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    margin-left: 9px;
+}

@@ -1,0 +1,110 @@
+.app{
+    height: 1080px;
+    width: 100%;
+    background-color: #E5E5E5;
+    padding-top: 50px;
+}
+.app-container{
+    background: url(background.png);
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+}
+.app-container>header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+.app-container>header>.logo{
+    height: 176px;
+    width: 247px;
+}
+.form-login{
+    height: 379px;
+    width: 350px;
+    background-color: rgb(54, 103, 150, 0.80);
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 46px;
+}
+.form-login-header{
+    height: 68px;
+    border-radius: 15px;
+    background-color: #FA821F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:28px ;
+}
+.form-login-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    color: #ffff;
+}
+
+.form-login-input, .form-login-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-login-input{
+margin-bottom: 18px;
+}
+.input-form-login{
+    padding: 0;
+    width: 326px;
+    height: 47.95px;
+    border-radius: 5px;
+    margin-bottom: 10.1px;   
+}
+
+.btn-form-login{
+    width:277.62px;
+    height:61.29px;
+    background-color: #FA821F;
+    border-radius: 5px;
+    margin-bottom: 9.71px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-form-login, .input-form-login{
+    border:none;
+}
+
+.btn-social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 83px;
+}
+.btn-size{
+    margin-right: 20px;
+}
+
+.btn-social-icon{
+    border: none;
+    cursor: pointer;
+    background: transparent;    
+}
+
+.btn-social-icon-g, .btn-social-icon-f{
+    background-color: #FFFF;
+    border-radius: 100%;
+    padding: 0;
+}
+
+footer{
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    color:rgba(54, 103, 150, 1);
+    font-size: 12px;
+    
+}

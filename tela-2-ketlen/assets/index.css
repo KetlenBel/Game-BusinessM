@@ -1,0 +1,87 @@
+.app{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(134, 133, 133);
+    padding: 60px;
+}
+
+.app-containner{
+    background: url(background2.png);
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    padding-top: 15px; ;
+}
+
+header{
+    height: 64px;
+    padding-bottom:20px ;
+}
+.title-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #FA821F;
+    font-family: 'Ubunto',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFF;
+}
+
+.icon-return{
+    border: none;
+    margin-left: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FA821F;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.icon-return-1{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.all-stores{
+    padding: 28px;
+    display: grid;
+    grid-template-columns:[inicio] 150px [meio] auto;
+    grid-gap: 15px;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.store-3{
+    grid-area: 3 / span 2;
+    padding-bottom: 80px;
+}
+
+.personagem{
+  width: 160px;
+  height: 156px;
+  z-index: 2;
+  position: relative;
+  left: -10px;
+}
+
+.footer-containner{
+    display: flex;
+    position: relative;
+}
+.text-personagem{
+    padding:35px 0 47px 58px ;
+    width: 250px;
+    height: 56px;
+    position: absolute;
+    left: 62px;
+    top: 4px;
+    z-index: 1;
+    background-color: #FFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border-radius:5px;
+}
